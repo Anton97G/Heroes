@@ -37,9 +37,12 @@ class MainActivity : ComponentActivity() {
 
 
 
-            Column(modifier = Modifier.padding(top = 20.dp)) {
+            Column(modifier = Modifier
+                .background(Color.DarkGray)
+                .padding(top = 10.dp)
+                ) {
                 Text(
-                    text = "HEROES",
+                    text = "HEROES IN WARCRAFT",
                     fontSize = 24.sp,
                     fontWeight = FontWeight.Bold,
                     modifier = Modifier.align(Alignment.CenterHorizontally)
